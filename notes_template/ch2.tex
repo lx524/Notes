@@ -1,0 +1,23 @@
+\section{Convexity}
+\subsection{Cone}
+\begin{definition}[Cone]
+A set $K \in \R^n$, when $x \in K $ implies $\alpha x \in K$.
+\end{definition}
+
+\begin{example}
+$f(x) = \sup_{j \in J} f_j(x)$
+\end{example}
+
+
+\begin{remark}
+\begin{itemize}
+\item $f$ is 2nd-differentiable, $f$ ix \cvx $\iff$ $\nabla^2f(x) \rangle  0$.
+\item $f$ is strongly \cvx $\iff$ $\nabla^2f(x) \rangle  \mu I$ $\iff$ $x \ge \mu$
+\end{itemize}
+\end{remark}
+\begin{theorem}
+$f : \R^n \to \bar{\R}$ is \cvx  $\iff$ $\forall x,y \in \R^n, \alpha \in (0,1), f(ax + (1-a)x) \le af(x) + (1-a)f(x)$.
+\end{theorem}
+\begin{proof}
+$\Rightarrow$ take $x,y \in dom \space f$, $(x,f(x)) \in epi \space f$,$(y,f(y)) \in epi \space f$.
+\end{proof}
